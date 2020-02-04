@@ -52,6 +52,8 @@ void addEdge(struct Graph* graph, int src, int dest){
 void populateGraph(struct Graph* graph, int num_of_edge_pair){
 	int edges[num_of_edge_pair][2];
 	int src, dest;
+  cout<<"\nEnter space separated source node and destiation node value"<<endl;
+  cout<<"Vertex value starts from 0"<<endl;
 	while (num_of_edge_pair--){
     cin>>src>>dest;
 		addEdge(graph, src, dest);
@@ -243,5 +245,5 @@ int main(){
     cout<<"\nYour solution is incorrect"<<endl;
   }
 
-    return 0;
+  return 0;
 }
