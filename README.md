@@ -20,7 +20,9 @@ Input problem matrix
 
 
 Insert total number of edges that is needed to solve the problem:
-//Solve the problem in paper and count the number of egdes.
+//Solve the problem in paper and count the number of
+
+//egdes.
 
 8
 
